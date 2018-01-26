@@ -1,0 +1,6 @@
+*.swp
+.errata
+
+env.sh
+
+__pycache__/
