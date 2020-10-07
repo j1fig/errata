@@ -1,5 +1,7 @@
 import os
 
 
-DATABASE_URL = os.getenv('DATABASE_URL') if 'DATABASE_URL' in os.environ else 'sqlite://'
+DATABASE_URL = os.getenv('DATABASE_URL')
 SQLALCHEMY_TRACK_MODIFICATIONS = False
+BASE_URL = os.getenv('BASE_URL')
+BLOG_URL = 'https://blog.theerrata.com'
